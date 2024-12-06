@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "source-code-teacher"
+version = "0.1.0"
+description = ""
+authors = ["gwanhun-clumio <gwanhun@clumio.com>"]
+readme = "README.md"
+packages = [{include = "source_code_teacher"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.9"
+openai = "^1.57.0"
+chromadb = "^0.5.23"
+tiktoken = "^0.8.0"
+langchain-community = "^0.3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
